@@ -43,4 +43,3 @@ class Auth:
 
         session_name = os.environ.get("SESSION_NAME", "_my_session_id")
         return request.cookies.get(session_name)
-    
